@@ -3,14 +3,15 @@ body {
   color: yellow;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  display: block;
 }
-
-div{
+form{
   text-align: center;
+  columns: 4;
 }
 
 input {
-  background-color: rgb(103, 103, 103);
+  background-color: rgb(0, 0, 0);
   color: yellow;
   border: 1px dashed yellow;
   padding: 0.5rem;

@@ -16,7 +16,7 @@ export default function HelloWorld(){
        setName(evento.target.value);
     };
 
-    // Crtl-K + Ctrl-C - comenta / Ctrl-K Ctrl-U - descomenta
+    // Crtl-K + Ctrl-C - comenta / Ctrl-K + Ctrl-U - descomenta
     const handleKeyInput = (evento) => {
             console.log(evento)
             if(evento.key==='Escape'){
